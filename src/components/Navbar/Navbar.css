@@ -1,0 +1,83 @@
+
+/* Header Styles */
+.left{
+    width: fit-content;
+    padding: 10px 7px;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+
+.left h3 {
+    color: #fff;
+}
+
+.left img{
+    filter: invert(100%);
+    display: block;
+    width: 60px;
+    margin: auto;
+}
+
+.left div{
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.left:hover{
+    box-shadow: 0px 0px 5px 1px #888;
+}
+
+.mid{
+    display: block;
+    width: fit-content;
+    margin: 7px auto;
+    padding: 3px 5px 3px 0px;
+}
+
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(255, 123, 35);
+}
+
+
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.btn{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px 7px;
+
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(88, 88, 88);
+}
