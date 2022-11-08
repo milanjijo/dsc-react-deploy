@@ -12,9 +12,9 @@ function AboutPage() {
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileHover={{ scale: 1.2 }}>
-            About Page
+            I am from Microsoft
             </motion.div>
-            
+        
         </h1>
     )
 }
